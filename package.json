@@ -1,0 +1,15 @@
+{
+  "name": "pbjs",
+  "version": "1.0.0",
+  "description": "Polymorphic Builder, for easies generator query raw sql for polymorphic relation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "BPJS",
+    "pbjs"
+  ],
+  "author": "Fahriansyah",
+  "license": "ISC"
+}
