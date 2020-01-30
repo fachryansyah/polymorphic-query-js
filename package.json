@@ -1,15 +1,22 @@
 {
   "name": "pbjs",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Polymorphic Builder, for easies generator query raw sql for polymorphic relation",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --reporter spec"
   },
   "keywords": [
-    "BPJS",
-    "pbjs"
+    "Polymnorphic",
+    "Rekationship"
   ],
+  "engines": {
+    "node": ">=4.2.4"
+  },
   "author": "Fahriansyah",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.0.1"
+  }
 }
